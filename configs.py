@@ -58,7 +58,7 @@ if bool(environ.get("WEBHOOK", False)):
 
     FORCE_SUB = environ.get("UPDATE_CHANNEL", "")
 
-    SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "official_learning_bots_Support")
+    SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "Movies_Samrajya")
 
     START_TXT = environ.get("START_TXT", StartTxT)
 
@@ -68,7 +68,7 @@ if bool(environ.get("WEBHOOK", False)):
 
     AUTO_DELETE = bool(environ.get("AUTO_DELETE", True))
 
-    AUTO_DELETE_SECOND = int(environ.get("AUTO_DELETE_SECOND", 300))
+    AUTO_DELETE_SECOND = int(environ.get("AUTO_DELETE_SECOND", 7200))
 
     PORT = environ.get('PORT', '8080')
 
