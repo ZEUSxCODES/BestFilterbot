@@ -17,7 +17,7 @@ async def startCMD(client: FilterBot, message: Message):
       InlineKeyboardButton('Help', callback_data='main#help'),
       InlineKeyboardButton('About', callback_data='main#about')
       ],[
-      InlineKeyboardButton('Update', url='t.me/learningbots79'),
+      InlineKeyboardButton('Update', url='t.me/Film_Nest'),
       InlineKeyboardButton('Support', url='t.me/learning_bots')
       ]]
 
